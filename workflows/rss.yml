@@ -2,6 +2,8 @@ on:
   rss:
     url:
       - https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml
+    config:
+      limit: 15
 jobs:
   request:
     name: Make a HTTP Request
