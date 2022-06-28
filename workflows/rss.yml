@@ -15,3 +15,18 @@ jobs:
           echo title: $title
           echo contentSnippet: $contentSnippet
           echo link: $link
+  request:
+    name: Make a HTTP Request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make a HTTP Request
+        uses: actionsflow/axios@v1
+        with:
+          url: ${{ secrets.FEEDER_WEBHOOK_URL }}
+          method: POST
+          body: |
+            {
+              "link":"${{ on.rss.outputs.link }}", 
+              "title": "${{ on.rss.outputs.title }}",
+              "content":"<<<${{ on.rss.outputs.contentSnippet }}>>>"
+            }
