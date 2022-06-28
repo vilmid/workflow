@@ -1,6 +1,7 @@
 on:
   rss:
-    url: https://hnrss.org/newest?points=300&count=3
+    url:
+      - https://hnrss.org/newest?points=300&count=3
 jobs:
   request:
     name: Make a HTTP Request
