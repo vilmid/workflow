@@ -1,7 +1,6 @@
 on:
   rss:
     url:
-      - https://hnrss.org/newest?points=300&count=3
       - https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml
 jobs:
   request:
