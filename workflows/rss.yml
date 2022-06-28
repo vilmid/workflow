@@ -15,6 +15,5 @@ jobs:
           body: |
             {
               "link":"${{ on.rss.outputs.link }}", 
-              "title": "${{ on.rss.outputs.title }}",
-              "content":"<<<${{ on.rss.outputs.contentSnippet }}>>>"
+              "title": "${{ on.rss.outputs.title }}"
             }
