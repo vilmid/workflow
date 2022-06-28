@@ -2,6 +2,37 @@ on:
   rss:
     url:
       - https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml
+      - https://u-site.jp/feed
+      - https://uxmilk.jp/feed
+      - https://www.nngroup.com/feed/rss
+      - https://cyblog.jp/feed
+      - https://www.lifehacker.jp/feed/index.xml
+      - https://www.roomie.jp/feed
+      - https://coliss.com/feed
+      - https://ics.media/feed/atom.xml
+      - https://realtime.jser.info/feed.xml
+      - https://web.dev/feed.xml
+      - https://blog.pfs.nifcloud.com/feed
+      - https://devblogs.microsoft.com/landingpage
+      - https://developer.chrome.com/feeds/blog.xml
+      - https://developers-jp.googleblog.com/atom.xml
+      - https://developers.freee.co.jp/feed
+      - https://engineering.mercari.com/blog/feed.xml
+      - https://techlog.voyagegroup.com/feed
+      - https://b.hatena.ne.jp/entrylist?url=https%3A%2F%2Fscrapbox.io%2F&mode=rss
+      - https://b.hatena.ne.jp/hotentry/it.rss
+      - https://note.com/akiyama924/rss
+      - https://note.com/designstrategy/rss
+      - https://note.com/hirokidaichi/rss
+      - https://note.com/necchu_soshiki/rss
+      - https://note.com/notemag/m/m57787022cedc/rss
+      - https://note.com/notemag/m/mdafce2b0ebe1/rss
+      - https://adamj.eu/tech/atom.xml
+      - https://brevis.exblog.jp/atom.xml
+      - https://efcl.info/feed
+      - https://little-hands.hatenablog.com/feed
+      - https://martinfowler.com/feed.atom
+      - https://zenn.dev/feed
     config:
       limit: 15
 jobs:
