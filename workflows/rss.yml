@@ -33,6 +33,7 @@ on:
       - https://little-hands.hatenablog.com/feed
       - https://martinfowler.com/feed.atom
       - https://zenn.dev/feed
+      - https://www.gigafree.net/index.xml
     config:
       limit: 15
 jobs:
