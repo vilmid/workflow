@@ -4,6 +4,7 @@ on:
       - https://www.lifehacker.jp/feed/index.xml
       - https://www.roomie.jp/feed
       - https://b.hatena.ne.jp/entrylist?url=https%3A%2F%2Fscrapbox.io%2F&mode=rss
+      - https://www.gigafree.net/index.xml
     config:
       limit: 15
 jobs:
